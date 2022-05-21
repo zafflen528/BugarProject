@@ -21,7 +21,7 @@
         <div class="toolbar">
           <ul>
             <li><a href="resep.html">Resep</a></li>
-            <li><a href="profil.html">Profil</a></li>
+            <li><a href="{{ url('/profile') }}">Profil</a></li>
             <li><a href="Tentang_Kita.html">Tentang Kita</a></li>
             <li><a href="{{ route('logout') }}">Logout</a></li>
           </ul>
