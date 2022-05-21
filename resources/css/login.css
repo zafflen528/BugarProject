@@ -1,4 +1,6 @@
 html{
     background-image: url("/public/images/signup.jpg");
+    min-height: max-content;
+    max-width: max-content;
     
 }
