@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet"  href="{!! asset('css/login.css') !!}">
+    </head>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -54,3 +59,5 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
+</html>
+
