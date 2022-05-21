@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -12,28 +12,18 @@
         
     </head>
     <body class="antialiased" style="background-image: url(images/home.png);">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif  
-        </div>
-        <header>
+    <header>
       <nav>
           <div class="fotoProfil">
-            <img src="assets/-icon.svg" id="profil"></a>
+            <img src="{{asset('/images')}}/-icon.svg" id="profil"></a>
           </div>
           <a href="#" class="logo">BUGAR</a>
-        
+          <div class="toolbar">
+          <ul>
+            <li><a href="{{ route('login') }}">Login</a></li>
+            <li><a href="{{ route('register') }}">Register</a></li>
+            </ul>
+        </div>
       </nav>
     </header>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" >
@@ -74,9 +64,6 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-    
-    
-    
     <div class="footer-container" style="margin-top: 8%;">
       <div class="footer">
         <div class="footer-heading foot1" style="margin-left: -7%;">
@@ -97,13 +84,9 @@
           <h2>Kebijakan Privasi</h2>
           <a>Kami menghargai privasi dan tidak akan pernah mengirim spam kepada Anda!
             Terima kasih telah menggunakan jasa kami!</a>
-        <div class="footer-saran-form"></div>
-          <h2>Kritik & Saran</h2>
-          <input type="text" placeholder="Ketikkan kritik dan saran" id="footer-saran" style="padding: 0 8px;">
-          <button type="button" value="submit" class="btn btn-warning" style="background-color: #2d3d3d; color: #FFF; border-color: #2d3d3d;">Kirim</button>
-        </div>
         </div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
+
