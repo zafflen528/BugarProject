@@ -94,12 +94,11 @@
     <div class="left">
       <div class="htmlcss">
         <div class="kolom">
-          <a href="{{ url('/chat') }}"><img src="images/home3.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
+          <a><img src="images/home3.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
         </div>
         <div class="Keterangan">
           <h1>Konsultasi Langsung</h1>
-        <p>Endless to-do lists and constant distractions from coworkers, calendars and cuddly pets means that you’re probably wasting a lot of time. Seque helps you to plan, focus and optimize your time so that you can get more done in less time.
-          Work distraction-free immersed in deep focus blocks, one task at a time.</p> 
+        <p>Anda bisa menekan fitur livechat dibawah kanan layar anda!</p> 
         </div>
       </div>
     </div>
@@ -132,5 +131,18 @@
         
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6289b3aeb0d10b6f3e736923/1g3kubor6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
   </body>
 </html>
