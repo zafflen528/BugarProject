@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="card-body" style="margin-top: 5%; margin-left:22%">
-            <a href="{{ url('/profile') }}">Ubah Profile</a>
+            <a href="{{ url('/ubah') }}">Ubah Profile</a>
                 </div>
           </section>
           <section class="left">
