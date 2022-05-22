@@ -43,5 +43,11 @@ function Calo()
 function Clear()
 {
     document.getElementById('resultcal').innerHTML="";
+    document.getElementById('hi').value="";
+    document.getElementById('we').value="";
+    document.getElementById('age').value="";
+    myChart.Clear();
+    ctx.clearRect(0,0, targetCanvas.canvas.width, targetCanvas.canvas.height);
+    
 
 }
