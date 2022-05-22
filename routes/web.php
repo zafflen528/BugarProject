@@ -39,9 +39,4 @@ Route::get('/chat', function () {
     return view('chat');
 });
 
-Route::get('/form', function () {
-    return view('formtraining');
-});
-
-
 require __DIR__.'/auth.php';
