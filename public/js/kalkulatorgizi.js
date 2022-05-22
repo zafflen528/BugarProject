@@ -1,6 +1,6 @@
 
 
-
+var myChart;
 
 function Calo()
 {
@@ -21,7 +21,7 @@ function Calo()
 
     let data2 = [proteins, fats, carbs];
     const ctx = document.getElementById('myChart').getContext('2d');
-    let myChart = new Chart(ctx, {
+    myChart = new Chart(ctx, {
         type: 'doughnut', 
         data: {
             labels: ['Protein', 'Lemak', 'Karbohidrat'],
@@ -36,6 +36,7 @@ function Calo()
         }
 
     });
+   
 
 }
 
@@ -46,8 +47,5 @@ function Clear()
     document.getElementById('hi').value="";
     document.getElementById('we').value="";
     document.getElementById('age').value="";
-    myChart.Clear();
-    ctx.clearRect(0,0, targetCanvas.canvas.width, targetCanvas.canvas.height);
-    
-
+    myChart.destroy();
 }
