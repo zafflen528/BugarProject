@@ -122,11 +122,6 @@
           <h2>Kebijakan Privasi</h2>
           <a>Kami menghargai privasi dan tidak akan pernah mengirim spam kepada Anda!
             Terima kasih telah menggunakan jasa kami!</a>
-            <div class="footer-saran-form"></div>
-          <h2>Kritik & Saran</h2>
-          <input type="text" placeholder="Ketikkan kritik dan saran" id="footer-saran" style="padding: 0 8px;">
-          <button type="button" value="submit" class="btn btn-warning" style="background-color: #2d3d3d; color: #FFF; border-color: #2d3d3d;">Kirim</button>
-        </div>
         </div>
         
         </div>
