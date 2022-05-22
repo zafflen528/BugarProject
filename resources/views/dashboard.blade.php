@@ -70,7 +70,7 @@
     <div class="left">
       <div class="htmlcss">
         <div class="kolom">
-          <a href="kalkulatorbmi.html"><img src="images/home1.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
+          <a href="{{ url('/bmi') }}"><img src="images/home1.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
         </div>
         <div class="Keterangan">
           <h1>Kalkulator BMI</h1>
@@ -82,7 +82,7 @@
     <div class="right" style="margin-left: 56.5%;">
       <div class="htmlcss1">
         <div class="kolom1">
-          <a href="kalkulatorgizi.html"><img src="images/home2.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
+          <a href="{{ url('/gizi') }}"><img src="images/home2.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
         </div>
         <div class="Keterangan2" style="margin-bottom: 8%;">
           <h1>Kalkulator Gizi</h1>

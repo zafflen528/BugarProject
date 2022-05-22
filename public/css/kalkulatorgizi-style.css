@@ -1,0 +1,259 @@
+:root{
+	--primary: rgb(255, 255, 255, 0.618);
+	--secondary: rgba(255, 255, 255, 0.618);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+  }
+
+body{
+	background: linear-gradient(135deg, var(--primary), var(--secondary)), url(buah-kalkulator.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+}
+
+.calories-cal .container{
+    background-color: white;
+    border-radius: 40px;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+.calories-cal input{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+#resultcal{
+    color: rgb(255, 0, 0);
+    padding-top: 0.5rem;
+	font-size: 30px;
+	margin-top: -2%;
+}
+
+.left-data{
+    background-color: #6B958E;
+    opacity: 0.9;
+    text-align: center;
+    border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+    height: 100%;
+	display: absolute;
+}
+
+.left-data button {
+	margin-bottom: 5%;
+	margin-top: -1%;
+}
+
+.pie-chart{
+    height: 100%;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+}
+
+.header{
+	min-height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 2% 8%;
+	height: 90px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #6B958E;
+}
+
+header .logo {
+	margin-left: 1%;
+	color: black;
+	opacity: 60%;
+	font-weight: 900;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.toolbar{
+	flex:  1;
+	text-align: right;
+}
+.toolbar ul{
+	margin-right: -88px;
+}
+.toolbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 1px 5px 1px 1px;
+	margin-left: 20px;
+	margin-top: 17px;
+	position: relative;
+}
+
+.toolbar ul li a {
+	margin-left: 2px;
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+  }
+  
+.toolbar ul li :hover {
+	background: rgba(0, 0, 0, 0.61);
+	color: white;
+	font-weight: 700;
+	font-size: 24;
+}
+
+.toolbar ul li a.active {
+	color: white;
+	font-weight: 700;
+	font-size: 24;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.footer p{
+	text-align: center;
+}
+
+.fotoProfil{
+	height: 60px;
+    width: 60px;
+	margin-top: 4%;
+	margin-left: -2%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#profil{
+    height: 80px;
+    width: 115px;
+	position: absolute;
+	margin-left: -49%;
+	margin-top: -15%;
+}
+
+#logo{
+	margin-left: 8%;
+	margin-top: 2.5px;
+}
+
+.footer-container {
+	background-color: #6B958E;
+	padding-bottom: 4rem;
+	box-sizing: border-box;
+	border-top-left-radius: 85px;
+	border-top-right-radius: 85px;
+}
+
+.footer {
+	width: 80%;
+	height: 41.5vh;
+	background-color: #6B958E;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-heading {
+	margin-top: 0.6%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+.footer-saran-form h2{
+	margin-bottom: 40%;
+}
+
+.footer-heading h2{
+	margin-bottom: 2%;
+}
+
+.footer-heading a{
+	margin-top: -1%;
+	margin-bottom: 3%;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: left;
+}
+
+.footer-heading i{
+	margin-top: -1%;
+}
+
+.footer-heading a:hover {
+	color: #2d3d3d;
+	transition: 0.3s ease-out;
+}
+
+#footer-saran{
+	width: 1000px;
+	height: 100px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	margin-bottom: 1%;
+	margin-top: -0.5%;
+}
+.footer-heading .social-links{
+	margin-top: 25%;
+	margin-bottom: 5%;
+	margin-left: -24.5%;
+}
+
+.footer-heading .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-heading .social-links a:hover{
+	color: #2d3d3d;
+	background-color: #ffffff;
+}
+
+.left-data input {
+	padding: 10px 10px;
+	margin-bottom: 3%;
+}

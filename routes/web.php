@@ -25,7 +25,14 @@ Route::get('/profile', function () {
 });
 Route::get('/resep', function () {
     return view('resep');
-});Route::get('/about', function () {
+});
+Route::get('/about', function () {
     return view('about');
+});
+Route::get('/bmi', function () {
+    return view('bmi');
+});
+Route::get('/gizi', function () {
+    return view('gizi');
 });
 require __DIR__.'/auth.php';
