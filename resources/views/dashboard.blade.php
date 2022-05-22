@@ -14,7 +14,7 @@
     <header>
       <nav>
           <div class="fotoProfil">
-            <img src="images/Foto Diri.jpg" id="profil"></a>
+            <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="profil"></a>
           </div>
           <p>Halo <a>{{ Auth::user()->name }}</a></p>
         

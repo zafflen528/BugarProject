@@ -38,15 +38,20 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
-
+            
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'password' => Hash::make($request->password),
-        
+            'password' => ($request->password),
+            'image'=>$request->image,
         ]);
+        if($request->hasFile('image')){
+            $request->file('image')->move('propil/',$request->file('image')->getClientOriginalName());
+            $user->image=$request->file('image')->getClientOriginalName();
+            $user->save();
+        }
 
         event(new Registered($user));
 

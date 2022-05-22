@@ -13,7 +13,7 @@
     <header>
         <nav>
             <div class="fotoProfil">
-              <img src="images/Foto Diri.jpg" id="profil"></a>
+              <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="profil"></a>
             </div>
             <a href="#" class="logo">Profil</a>
           <div class="toolbar">
@@ -52,7 +52,7 @@
           <section class="left">
             <div class="profil-heading2">
               <div class="profile-pic-div2" style="margin-top: -15%;">
-                <img src="images/Foto Diri.jpg" id="photo">
+                <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="photo">
               </div>
             </div>
           </section>

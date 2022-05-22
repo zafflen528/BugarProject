@@ -12,7 +12,7 @@
     <header>
       <nav>
           <div class="fotoProfil">
-            <img src="images/Foto Diri.jpg" id="profil"></a>
+            <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="profil"></a>
           </div>
           <a href="#" class="logo">Resep</a>
         <div class="toolbar">
