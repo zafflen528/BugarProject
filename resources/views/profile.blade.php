@@ -44,7 +44,7 @@
               </div>
               <div>
                 <div class="card-body">
-                   <a href="{{ url('/profile') }}">Ganti Password</a>
+                   <a href="{{ url('reset-passwords') }}">Ganti Password</a>
                 </div>
               </div>
             </div>

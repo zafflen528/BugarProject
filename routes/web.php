@@ -38,4 +38,5 @@ Route::get('/gizi', function () {
 Route::get('/chat', function () {
     return view('chat');
 });
+
 require __DIR__.'/auth.php';
