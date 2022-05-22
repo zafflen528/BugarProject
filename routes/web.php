@@ -23,4 +23,9 @@ Route::get('/dashboard', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/resep', function () {
+    return view('resep');
+});Route::get('/about', function () {
+    return view('about');
+});
 require __DIR__.'/auth.php';

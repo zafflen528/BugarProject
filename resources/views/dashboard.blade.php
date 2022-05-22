@@ -20,9 +20,9 @@
         
         <div class="toolbar">
           <ul>
-            <li><a href="resep.html">Resep</a></li>
+            <li><a href="{{ url('/resep') }}">Resep</a></li>
             <li><a href="{{ url('/profile') }}">Profil</a></li>
-            <li><a href="Tentang_Kita.html">Tentang Kita</a></li>
+            <li><a href="{{ url('/about') }}">Tentang Kita</a></li>
             <li><a href="{{ route('logout') }}">Logout</a></li>
           </ul>
           
@@ -123,12 +123,13 @@
           <h2>Kebijakan Privasi</h2>
           <a>Kami menghargai privasi dan tidak akan pernah mengirim spam kepada Anda!
             Terima kasih telah menggunakan jasa kami!</a>
-        <div class="footer-saran-form"></div>
+            <div class="footer-saran-form"></div>
           <h2>Kritik & Saran</h2>
           <input type="text" placeholder="Ketikkan kritik dan saran" id="footer-saran" style="padding: 0 8px;">
           <button type="button" value="submit" class="btn btn-warning" style="background-color: #2d3d3d; color: #FFF; border-color: #2d3d3d;">Kirim</button>
         </div>
         </div>
+        
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
