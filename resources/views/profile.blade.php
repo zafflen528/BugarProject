@@ -57,7 +57,7 @@
             </div>
           </section>
           </div>
-          <div class="footer-container" style="margin-top: 15%;">
+          <div class="footer-container" style="margin-top: 20%;">
             <div class="footer">
               <div class="footer-heading foot1" style="margin-left: -7%;">
                 <h2>Yuk Hidup Sehat!</h2>
