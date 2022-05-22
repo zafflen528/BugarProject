@@ -35,4 +35,7 @@ Route::get('/bmi', function () {
 Route::get('/gizi', function () {
     return view('gizi');
 });
+Route::get('/chat', function () {
+    return view('chat');
+});
 require __DIR__.'/auth.php';

@@ -94,7 +94,7 @@
     <div class="left">
       <div class="htmlcss">
         <div class="kolom">
-          <a href="livechat.html"><img src="images/home3.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
+          <a href="{{ url('/chat') }}"><img src="images/home3.jpg" id="photo" height="290" width="530" style="border-radius:7%"></a>
         </div>
         <div class="Keterangan">
           <h1>Konsultasi Langsung</h1>
