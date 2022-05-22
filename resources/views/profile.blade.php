@@ -14,6 +14,7 @@
         <nav>
             <div class="fotoProfil">
               <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="profil"></a>
+              
             </div>
             <a href="#" class="logo">Profil</a>
           <div class="toolbar">
@@ -49,11 +50,15 @@
                 </div>
               </div>
             </div>
+            <div class="card-body" style="margin-top: 5%; margin-left:22%">
+            <a href="{{ url('/profile') }}">Ubah Profile</a>
+                </div>
           </section>
           <section class="left">
             <div class="profil-heading2">
               <div class="profile-pic-div2" style="margin-top: -15%;">
                 <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="photo">
+                
               </div>
             </div>
           </section>
@@ -79,6 +84,7 @@
                 <a>Kami menghargai privasi dan tidak akan pernah mengirim spam kepada Anda!
                   Terima kasih telah menggunakan jasa kami!</a>
               </div>
+
               </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
