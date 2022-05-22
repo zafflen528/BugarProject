@@ -44,7 +44,7 @@ class RegisteredUserController extends Controller
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'password' => ($request->password),
+            'password' =>  Hash::make($request->password),
             'image'=>$request->image,
         ]);
         if($request->hasFile('image')){
