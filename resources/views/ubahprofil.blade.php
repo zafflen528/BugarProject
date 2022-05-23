@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="{!! asset('css/profil.css') !!}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
   <title>Bugar</title>
 </head>
@@ -28,30 +29,26 @@
           </div>
         </nav>
       </header>
-    <form action="">
-      <div >
-          <p>Change Name</p>
-          <div>
-            <input type="text" name="email" required/>
-          </div>
+    <h2 style="margin-top:1%; margin-left:40%;">Change Profile</h2>  
+    <form action="" style=" margin-left:40%;" enctype="multipart/form-data">
+      <p style="margin-top:2%; margin-bottom:0%">Name</p>
+      <div class="form__group">
+        <input type="text" class="form__input" id="name" placeholder="Full name" required="" />
+        <label for="name" class="form__label"></label>
       </div>
-
-      <div >
-          <p>Change Email</p>
-          <div>
-            <input type="text" name="email" required/>
-          </div>
+      <p style="margin-top:2%; margin-bottom:0%">Email</p>
+      <div class="form__group">
+        <input type="text" class="form__input" id="email" placeholder="Email" required="" />
+        <label for="email" class="form__label"></label>
       </div>
-      <div>
-                <x-label for="image" :value="__('Upload Foto Profile')" />
-
-                <x-input id="image" class="block mt-1 w-full"
-                                type="file"
-                                name="image" required />
-            </div>
-<button type="submit">Ubah Profile</button>
-</form>
-          <div class="footer-container" style="margin-top: 20%;">
+      <p style="margin-top:2%; margin-bottom:0%">Profile Photo</p>
+      <div class="form__group">
+        <input type="file" class="form__input" id="image" placeholder="Profile Photo" required="" />
+        <label for="image" class="form__label"></label>
+      </div>
+      <button style="margin-top:2%; margin-bottom:0%" type="submit">Ubah Profile</button>
+    </form>
+          <div class="footer-container" style="margin-top: 4%;">
             <div class="footer">
               <div class="footer-heading foot1" style="margin-left: -7%;">
                 <h2>Yuk Hidup Sehat!</h2>
