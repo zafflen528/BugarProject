@@ -59,13 +59,6 @@ Route::middleware('auth')->group(function () {
     Route::post('reset-passwords', [NewPasswordController::class, 'store'])
                 ->name('password.update');
 
-    Route::get('changeprofile', [ChangeProfile::class, 'create'])
-                ->name('profile.change');
-
-
-    Route::post('changeprofile', [ChangeProfile::class, 'store'])
-                ->name('profile.update');
-
     Route::get('logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
     
