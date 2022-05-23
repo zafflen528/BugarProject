@@ -35,9 +35,7 @@ Route::get('/bmi', function () {
 Route::get('/gizi', function () {
     return view('gizi');
 });
-Route::get('/ubah', function () {
-    return view('ubahprofil');
-});
+
 
 Route::get('/form', function () {
     return view('formtraining');
