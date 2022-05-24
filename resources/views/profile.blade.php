@@ -9,7 +9,7 @@
   <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
   <title>Bugar</title>
 </head>
-  <body>
+  <body style="background-image:url({{asset('assets/bg3.png')}}) ;">
     <header>
         <nav>
             <div class="fotoProfil">
@@ -34,7 +34,7 @@
               <h2>Nama</h2>
               <div class="card" style="width: 35rem; height: 3rem; 	border-radius: 30px;">
                 <div class="card-body">
-                  <p <a>{{ Auth::user()->name }}</a></p>
+                  <p> <a>{{ Auth::user()->name }}</a></p>
                 </div>
               </div>
             </div>

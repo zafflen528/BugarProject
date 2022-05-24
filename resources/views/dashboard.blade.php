@@ -10,16 +10,17 @@
   <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
   <title>Bugar</title>
 </head>
-  <body style="background-image: url(images/home.png);">
+  <body style="background-image:url({{asset('assets/bg1.png')}}) ;">
     <header>
       <nav>
           <div class="fotoProfil">
             <img src="{{asset('/propil')}}/{{ Auth::user()->image }}" id="profil"></a>
           </div>
-          <p>Halo <a>{{ Auth::user()->name }}</a></p>
+          <p class="nama-kamu">Halo <a>{{ Auth::user()->name }}</a></p>
         
         <div class="toolbar">
           <ul>
+            
             <li><a href="{{ url('/resep') }}">Resep</a></li>
             <li><a href="{{ url('/profile') }}">Profil</a></li>
             <li><a href="{{ url('/about') }}">Tentang Kita</a></li>

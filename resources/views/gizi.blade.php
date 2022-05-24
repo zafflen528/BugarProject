@@ -11,7 +11,7 @@
    <link rel="stylesheet" type="text/css" href="{!! asset('css/kalkulatorgizi-style.css') !!}">
    <title>Kalkulator Gizi</title>
 </head>
-<body>
+<body style="background-image:url({{asset('assets/bg3.png')}}) ;">
     <header>
         <nav>
             <div class="fotoProfil">
