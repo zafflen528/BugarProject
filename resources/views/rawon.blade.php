@@ -34,10 +34,31 @@
         <ul style="list-style-type:none;float:left ">
             <li><h1 style="font-weight:900">Rawon</h1> </li>
             <li><h3>Bahan</h3> </li>
-            <ul>
-            <li>babi</li>
-            <li>anji</li>
-            </ul>
+            <p >
+            <ul style="column-count:2;column-gap:30px;">
+              <li>500g daging sandung lamur sapi</li>
+              <li>1 dengkul sapi, belah dua</li>
+              <li>3 lembar daun jeruk purut segar</li> 
+              <li>1 batang serai, memarkan</li> 
+              <li>1 sdm air asam jawa</li> 
+              <li>2 batang daun bawang, iris seukuran 1 cm</li> 
+              <li>1 sdm Royco Kaldu Sapi</li> 
+              <li>3 liter air</li> 
+              <li>1 sdm Garam</li> 
+              <li>5 sdm minyak goreng</li>
+              <li>4 siung bawang putih</li>
+              <li>8 butir bawang merah</li>
+              <li>5 buah keluak, geprek </li>
+              <li>4 butir kemiri, sangrai</li> 
+              <li>1 cm kunyit, bakar</li> 
+              <li>Taoge pendek</li> 
+              <li>Telur asin</li> 
+              <li>Sambal rawit</li> 
+              <li>Jeruk nipis</li> 
+              <li>Emping</li>
+                
+</ul></p>
+
             <li><h3>Langkah-langkah</h3> </li>
             <ul style="list-style-type:number">
             <li>Rebus daging dan dengkul sapi hingga setengah lunak. Potong daging sesuai selera. Sisihkan.</li>
