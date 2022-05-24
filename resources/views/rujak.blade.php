@@ -20,7 +20,7 @@
             <li><a href="{{ url('/dashboard') }}">Beranda</a></li>
             <li><a href="{{ url('/resep') }}" class="active">Resep</a></li>
             <li><a href="{{ url('/profile') }}" >Profil</a></li>
-            <li><a href="{{ url('/form') }}">Isi Form</a></li>
+            
             <li><a href="{{ url('/about') }}">Tentang Kita</a></li>
           </ul>
         </div>

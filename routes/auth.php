@@ -62,6 +62,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
+    Route::get('deleteacc', [RegisteredUserController::class, 'destroy'])
+                ->name('deleteacc');
     Route::get('gantifoto',[EventsAvatar::class,'index']);
     Route::post('gantifoto',[EventsAvatar::class,'update'])
                 ->name('ganti-foto');

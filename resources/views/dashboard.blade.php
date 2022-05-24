@@ -24,7 +24,7 @@
             <li><a href="{{ url('/resep') }}">Resep</a></li>
             <li><a href="{{ url('/profile') }}">Profil</a></li>
             <li><a href="{{ url('/about') }}">Tentang Kita</a></li>
-            <li><a href="{{ url('/form') }}">Isi Form</a></li>
+            
             <li><a href="{{ route('logout') }}">Logout</a></li>
           </ul>
           

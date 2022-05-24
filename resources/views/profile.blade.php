@@ -22,7 +22,6 @@
               <li><a href="{{ url('/dashboard') }}">Beranda</a></li>
               <li><a href="{{ url('/resep') }}">Resep</a></li>
               <li><a href="{{ url('/profile') }}" class="active">Profil</a></li>
-              <li><a href="{{ url('/form') }}">Isi Form</a></li>
               <li><a href="{{ url('/about') }}">Tentang Kita</a></li>
             </ul>
           </div>
@@ -56,6 +55,9 @@
                    
                    <input type="button" class="btn btn-info" onclick="location.href='{{ url('gantifoto') }}';" value="ganti foto profil" />
                    <input type="button" class="btn btn-primary" onclick="location.href='{{ url('reset-passwords') }}';" value="ganti password" />
+                </div>
+                <div class="d-grid gap-2">
+                   <input type="button" class="btn btn-danger" onclick="location.href='{{ url('deleteacc') }}';" value="hapus akun" />
                 </div>
               </div>
             </div>
