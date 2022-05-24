@@ -46,12 +46,16 @@
               </div>
               <div>
                 <div class="card-body">
-                   <a href="{{ url('reset-passwords') }}">Ganti Password</a>
+                   
+                   
+                  
                 </div>
               </div>
               <div>
                 <div class="card-body">
-                   <a href="{{ url('gantifoto') }}">Ganti foto profil</a>
+                   
+                   <input type="button" class="btn btn-info" onclick="location.href='{{ url('gantifoto') }}';" value="ganti foto profil" />
+                   <input type="button" class="btn btn-primary" onclick="location.href='{{ url('reset-passwords') }}';" value="ganti password" />
                 </div>
               </div>
             </div>
