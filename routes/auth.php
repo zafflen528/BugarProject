@@ -10,6 +10,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use App\Http\Controllers\Auth\ChangeProfile;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\EventsAvatar;
 
 Route::middleware('guest')->group(function () {
     Route::get('register', [RegisteredUserController::class, 'create'])
@@ -61,5 +62,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
-    
+    Route::get('gantifoto',[EventsAvatar::class,'index']);
+    Route::post('gantifoto',[EventsAvatar::class,'update'])
+                ->name('ganti-foto');
 });
