@@ -9,7 +9,7 @@
   <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
   <title>Bugar</title>
 </head>
-  <body>
+  <body style="background-image:url({{asset('assets/bg3.png')}}) ;">
     <header>
         <nav>
             <div class="fotoProfil">
