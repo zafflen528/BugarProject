@@ -10,6 +10,7 @@
    <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" type="text/css" href="{!! asset('css/kalkulatorgizi-style.css') !!}">
    <title>Kalkulator Gizi</title>
+   <link rel="icon" href="{!! asset('assets/BUGAR.ico') !!}">
 </head>
 <body style="background-image:url({{asset('assets/bg3.png')}}) ;">
     <header>

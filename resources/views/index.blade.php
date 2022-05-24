@@ -9,7 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
         <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
-        
+        <link rel="icon" href="{!! asset('assets/BUGAR.ico') !!}">
     </head>
     <body class="antialiased" style="background-image: url(images/home.png);">
     <header>

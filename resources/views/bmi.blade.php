@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
   <script src="https://kit.fontawesome.com/40c82c7a25.js" crossorigin="anonymous"></script>
   <title>Kalkulator BMI</title>
+  <link rel="icon" href="{!! asset('assets/BUGAR.ico') !!}">
 </head>
   <body style="background-image:url({{asset('assets/bg3.png')}}) ;">
     <header>

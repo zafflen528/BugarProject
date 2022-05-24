@@ -1,3 +1,4 @@
+<head><link rel="icon" href="{!! asset('assets/BUGAR.ico') !!}"></head>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">

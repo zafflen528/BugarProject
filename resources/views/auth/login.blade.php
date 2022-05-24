@@ -1,3 +1,4 @@
+<head><link rel="icon" href="{!! asset('assets/BUGAR.ico') !!}"></head>
 <!DOCTYPE html>
 <html lang="en">
     <head>
