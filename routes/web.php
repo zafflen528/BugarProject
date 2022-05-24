@@ -36,7 +36,15 @@ Route::get('/gizi', function () {
     return view('gizi');
 });
 
-
+Route::get('/rawon', function () {
+    return view('rawon');
+});
+Route::get('/gado', function () {
+    return view('gado');
+});
+Route::get('/rujak', function () {
+    return view('rujak');
+});
 Route::get('/form', function () {
     return view('formtraining');
 });

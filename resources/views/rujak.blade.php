@@ -28,26 +28,15 @@
     </header>
     <div class="box-container">
       <div class="box">
-        <img src="assets/cont1.png" alt="" />
+        
         <div class="content">
-          <a href="{{ url('/rawon') }}">Rawon</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <img src="assets/cont2.png" alt="" />
-        <div class="content">
-          <a href="{{ url('/gado') }}">Gado-Gado</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <img src="assets/cont3.png" alt="" />
-        <div class="content">
-          <a href="{{ url('/rujak') }}">Rujak</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
+        <img src="assets/cont3.png" style="width:45%; float:left"alt="" />
+        <ul style="list-style-type:none;float:left ">
+            <li><h1 style="font-weight:900">Rujak</h1> </li>
+            <li><h3>Alat dan Bahan</h3> </li>
+            <li><h3>Langkah-langkah</h3> </li>
+        </ul>
+          
         </div>
       </div>
     </div>

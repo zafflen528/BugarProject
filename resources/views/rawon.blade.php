@@ -28,26 +28,27 @@
     </header>
     <div class="box-container">
       <div class="box">
-        <img src="assets/cont1.png" alt="" />
+        
         <div class="content">
-          <a href="{{ url('/rawon') }}">Rawon</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <img src="assets/cont2.png" alt="" />
-        <div class="content">
-          <a href="{{ url('/gado') }}">Gado-Gado</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <img src="assets/cont3.png" alt="" />
-        <div class="content">
-          <a href="{{ url('/rujak') }}">Rujak</a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus aperiam dolorem quam sunt unde quae ullam assumenda neque, quo ipsam eveniet nobis obcaecati et ad consectetur voluptatibus ut cupiditate?</p>
+        <img src="assets/cont1.png" style="width:45%; float:left"alt="" />
+        <ul style="list-style-type:none;float:left ">
+            <li><h1 style="font-weight:900">Rawon</h1> </li>
+            <li><h3>Bahan</h3> </li>
+            <ul>
+            <li>babi</li>
+            <li>anji</li>
+            </ul>
+            <li><h3>Langkah-langkah</h3> </li>
+            <ul style="list-style-type:number">
+            <li>Rebus daging dan dengkul sapi hingga setengah lunak. Potong daging sesuai selera. Sisihkan.</li>
+            <li>Masukkan Royco Kaldu Sapi dan garam ke dalam air rebusan daging.</li>
+            <li>Tumis bumbu halus, lengkuas, daun jeruk, dan serai hingga harum dan matang.</li>
+            <li>Masukkan potongan daging ke dalam tumisan, masak hingga bumbu meresap.</li>
+            <li>Masukkan tumisan daging ke dalam kuah kaldu. Masak dengan api kecil hingga daging empuk.</li>
+            <li>Sajikan hangat beserta pelengkap.</li>
+            </ul>
+        </ul>
+          
         </div>
       </div>
     </div>
