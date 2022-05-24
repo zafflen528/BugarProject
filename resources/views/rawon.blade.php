@@ -56,8 +56,7 @@
               <li>Sambal rawit</li> 
               <li>Jeruk nipis</li> 
               <li>Emping</li>
-                
-</ul></p>
+            </ul></p>
 
             <li><h3>Langkah-langkah</h3> </li>
             <ul style="list-style-type:number">

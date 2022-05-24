@@ -34,7 +34,29 @@
         <ul style="list-style-type:none;float:left ">
             <li><h1 style="font-weight:900">Rujak</h1> </li>
             <li><h3>Alat dan Bahan</h3> </li>
+            <ul style="column-count:2;column-gap:30px;">
+              <li>Jambu air</li>
+              <li>Mangga mengkal</li>
+              <li>Timun</li> 
+              <li>Nanas</li> 
+              <li>Pepaya mengkal</li> 
+              <li>Bengkuang</li> 
+              <li>10 buah cabai</li> 
+              <li>1/2 sdt terasi matang</li> 
+              <li>3 sdm air asam</li> 
+              <li>3 sdm kacang goreng</li>
+              <li>250 gr gula merah</li>
+              <li>Garam secukupnya</li>
+            </ul></p>
             <li><h3>Langkah-langkah</h3> </li>
+            <ul style="list-style-type:number">
+            <li>Potong-potong semua buah dengan ukuran sesuai selera.</li>
+            <li>Ulek cabai, terasi, dan garam sampai halus. <br>
+              Tambahkan gula merah kemudian ulek juga hingga halus.</li>
+            <li>Tambahkan kacang goreng dan ulek kasar agar teksturnya renyah.</li>
+            <li>Tuang asam jawa lalu ulek lagi hingga tercampur merata.</li>
+            <li>Tuang bumbu rujak ke buah-buahan dan sajikan.</li>
+            </ul>
         </ul>
           
         </div>
