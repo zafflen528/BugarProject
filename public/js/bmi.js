@@ -17,7 +17,7 @@
           greeting = "Normal";
         }
         else if (value >= 25.1 && value <= 27.0) {
-        greeting = "Gemuk (kelebihan berat badan tingakt rendah)";
+        greeting = "Gemuk (kelebihan berat badan tingkat rendah)";
         }
         else {
           greeting = "Gemuk (Kelebihan berat badan tingkat tinggi)";
